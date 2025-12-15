@@ -1,12 +1,20 @@
-
-[ Frontend ]
-     ↓
-[ API Gateway ]
-     ↓
-[ Auth Service ]  → JWT
-     ↓
-[ Identity Service ]
-     ↓
-[ Verification Orchestrator ]
-     ↓
-[ Data Providers / AI ]
+Frontend
+   |
+API Gateway
+   |
+Auth Service
+   |
+Identity Service
+   |
+Document Service
+   |
+Verification Orchestrator
+   |
++-------------------------+
+| Data Integrations       |
+| AI Risk Scoring         |
++-------------------------+
+   |
+Payment & Billing
+   |
+Audit & Dashboard
