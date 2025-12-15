@@ -1,0 +1,12 @@
+
+[ Frontend ]
+     ↓
+[ API Gateway ]
+     ↓
+[ Auth Service ]  → JWT
+     ↓
+[ Identity Service ]
+     ↓
+[ Verification Orchestrator ]
+     ↓
+[ Data Providers / AI ]
